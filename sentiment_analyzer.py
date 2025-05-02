@@ -35,7 +35,10 @@ class AnalysisConfig:
 
     def __post_init__(self):
         if self.message_columns is None:
-            self.message_columns = ['근거 메시지 (라인 번호 또는 내용)', '대표 메시지 (근거)']
+            self.message_columns = [
+                'message', 'text', 'content', 'comment', 'review',
+                '메시지', '내용', '댓글', '리뷰'
+            ]
 
 class SentimentAnalyzer:
     """A class for analyzing sentiment and toxicity in text using Google Cloud APIs."""
