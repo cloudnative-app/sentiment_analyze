@@ -10,6 +10,10 @@ A Python library for analyzing sentiment and toxicity in Korean text using Googl
 - Rate limiting and retry mechanisms for API calls
 - Comprehensive error handling and logging
 
+## Documentation
+
+- [API Comparison: Google Cloud Sentiment Analysis vs. Perspective API](docs/api_comparison.md)
+
 ## Installation
 
 1. Clone the repository:
@@ -117,6 +121,10 @@ Google Cloud API를 사용하여 한국어 텍스트의 감정과 유해성을 �
 - 다양한 형식의 CSV 파일 지원
 - API 호출에 대한 속도 제한 및 재시도 메커니즘
 - 상세한 오류 처리 및 로깅
+
+## 문서
+
+- [API 비교: Google Cloud 감정 분석 vs. Perspective API](docs/api_comparison.md)
 
 ## 설치 방법
 
